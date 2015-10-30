@@ -8,6 +8,8 @@ if (!empty($_GET)) {
     if (isset($_GET['login'])) {
         include 'login.php';
     }
+} else {
+    include 'home.php';
 }
 
 ?>

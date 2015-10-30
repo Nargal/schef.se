@@ -41,13 +41,11 @@
             </ul>
         </nav>
         <main>
-            <section>
-                <?php include 'inc/handler/get.php'; ?>
-            </section>
+            <?php include 'inc/handler/get.php'; ?>
             <?php
                 if (!isset($_COOKIE['cookie_disc'])) {
             ?>
-                <div id="cookieDisclaimer">Denna webbplats använder cookies för att lagra information. Genom att fortsätta använda denna webbplats godkänner du vårat användande av cookies. <span class="close" onclick="cookieDisc()">&times;</span></div>
+                <div id="cookieDisclaimer">Denna webbplats anv&auml;nder cookies f&ouml;r att lagra information. Genom att forts&auml;tta anv&auml;nda denna webbplats godk&auml;nner du detta.<span class="close" onclick="cookieDisc()">&times;</span></div>
             <?php
                 }
             ?>
