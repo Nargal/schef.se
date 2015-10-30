@@ -47,7 +47,7 @@
             <?php
                 if (!isset($_COOKIE['cookie_disc'])) {
             ?>
-                <div id="cookieDisclaimer">This website is using cookies to store information. By browsing this site you are agreeing to our usage of cookies. <span class="close" onclick="cookieDisc()">&times;</span></div>
+                <div id="cookieDisclaimer">Denna webbplats använder cookies för att lagra information. Genom att fortsätta använda denna webbplats godkänner du vårat användande av cookies. <span class="close" onclick="cookieDisc()">&times;</span></div>
             <?php
                 }
             ?>
