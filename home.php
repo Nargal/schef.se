@@ -1,1 +1,3 @@
-<section>home.php</section>
+<section>
+    home.php
+</section>
