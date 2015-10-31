@@ -3,9 +3,9 @@
 /**
  * Database settings
  */
-define('HOST', '127.0.0.1');                                            // The host you want to connect to.
+define('HOST', 'localhost');                                            // The host you want to connect to.
 define('USER', 'root');                                                 // The database username.
-define('PASSWORD', 'Dimebag85');                                        // The database password.
+define('PASSWORD', '');                                        // The database password.
 define('DATABASE', 'schef.se');                                         // The database name.
 
 /**

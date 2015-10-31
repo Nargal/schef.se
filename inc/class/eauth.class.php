@@ -294,6 +294,11 @@ class EAuth
         return (isset($_COOKIE[COOKIE_EAUTH]) && $this->checkSession($_COOKIE[COOKIE_EAUTH]));
     }
     
+    public function isAdmin()
+    {
+        
+    }
+    
     public function logout($hash)
     {
         return $this->deleteSession($hash);
